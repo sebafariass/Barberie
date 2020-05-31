@@ -41,6 +41,10 @@ h3 {
   height: 50px;
 }
 
+div .blog {
+  color: #e56353;
+}
+
 @media (max-width: 380px) {
   .logo {
     width: 80px;
