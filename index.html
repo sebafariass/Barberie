@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Mi css-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Codigo bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- googleFonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&family=Roboto:wght@300;400&display=swap" rel="stylesheet">    <title>PROBANDO SASS</title>
+</head>
+<body>
+
+  <!-- Nav/ Icono Barber -->
+    <nav class="navbar navbar-expand-md container-fluid navbar-dark" id="navBar">
+        <div class="container" >
+            
+       <a class="navbar-brand" href="#"><img class="logo ml-5" src="assets/img/logo.png" alt="Logo Barber"></a>
+                  <!--menu toggler -->
+                  <button type="button" class="navbar-toggler" data-toggle="collapse"  data-target="#navbarNavAltMarkup"
+                  aria-controls="firstNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+    
+              <!-- Lista de Nav-->
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <ul class="navbar-nav ml-auto" id="navInfo">
+                     <li class="nav-item"><a class="nav-link text-light"  href="#inicio">Inicio</a></li>
+                     <li class="nav-item"><a class="nav-link text-light" href="#productos">Productos</a></li>
+                     <li class="nav-item"><a class="nav-link text-light" href="#productos">Productos</a></li>
+                     <li class="nav-item"><a class="nav-link text-light" href="#contacto">Contacto</a></li>
+                  </ul> 
+       
+                </div>
+         </div> 
+    </nav>
+<!-- HEADER IMAGEN -->
+    <header id="Cabecera" class="heroSec container-fluid">
+      <h1>
+        5 formas de cuidar <br>
+      tu corte de cabello
+      </h1>
+
+    </header>
+
+<!-- TEXTO PRINCIPAL-->
+    <section id="Principal">
+     <div class="container parrafo"> 
+           <h3 class="fechaText">12 de Abril de 2018</h3>
+           <p>  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore maiores reprehenderit ut dignissimos, similique harum voluptas excepturi. Id assumenda dolorem iure consequatur dolor aperiam quam eius, perferendis eos cupiditate! Vero.</p>
+           <p>  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore maiores reprehenderit ut dignissimos, similique harum voluptas excepturi. Id assumenda dolorem iure consequatur dolor aperiam quam eius, perferendis eos cupiditate! Vero.</p>
+           <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus harum laborum necessitatibus, vero porro quo mollitia minima incidunt corporis voluptatem possimus molestiae nostrum voluptates velit maxime praesentium distinctio, modi nisi.</p>
+           <p>  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore maiores reprehenderit ut dignissimos, similique harum voluptas excepturi. Id assumenda dolorem iure consequatur dolor aperiam quam eius, perferendis eos cupiditate! Vero.</p>
+           <p>  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore maiores reprehenderit ut dignissimos, similique harum voluptas excepturi. Id assumenda dolorem iure consequatur dolor aperiam quam eius, perferendis eos cupiditate! Vero.</p>
+           <p>  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore maiores reprehenderit ut dignissimos, similique harum voluptas excepturi. Id assumenda dolorem iure consequatur dolor aperiam quam eius, perferendis eos cupiditate! Vero.</p>
+
+           <div class="button row">
+
+            <button type="button" class="btn btn-secondary rounded-pill">Compartir</button>
+            <button type="button" class="btn btn-secondary btn-lg rounded-pill largo">Comentar en Twitter</button>
+
+           </div>
+         </div>
+    </section>
+
+
+
+<hr>
+
+    <section id="Comentarios" class="container imgCirc ">
+
+<div class="row comments"> 
+
+  <img src="assets/img/naomi-thai.png" alt="..." class="rounded-circle col-12 col-md-3 comments__img">
+  <h3 class=" col-12 col-md-3 comment">Naomi Thai <br>
+    <span class="span">@Naothai <br> idepelos.com</span>
+  </h3>
+  
+
+  <p class="col-12 col-md-6 texting">Lorem ipsum dolor sit amet cligendi voluptates quam, blanditiis cona s quam, blanditiis cona s quam, blanditiis cona!  voluptates quam, blanditiis cona blanditiis cona Lorem ipsum dolor sit amet cligendna blanditiis cona Loresit amet clig</p>
+
+
+</div>
+
+
+
+    </section>
+    
+      <br>
+    <section id="Pages" class="container-fluid pagiDif">
+      <div class="pagMov">
+
+        
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+              <span><button type="button" class="btn btn-light pages">Anterior</button></span>
+            </li>
+            <li class="page-item"><a class="page-link"  href="#"> <span class="text-dark"> 1</span></a></li>
+            <li class="page-item active">
+              <span class="page-link">
+            2
+              </span>
+            </li>
+            <li class="page-item"><a class="page-link" href="#"> <span class="text-dark">3</span></a></li>
+            <li class="page-item">
+              <span><button type="button" class="btn btn-light pagesNext">Siguiente</button></span>
+
+            </li>
+          </ul>
+      
+
+      </div>
+
+
+    </section>
+
+
+
+    <footer id="Footer" class="container-fluid">
+        
+          <img src="assets/img/logo.png" class="footImg" alt="Logo Footy">
+
+           
+
+
+    </footer>
+  <!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

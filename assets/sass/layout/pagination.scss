@@ -1,0 +1,22 @@
+
+// Pagnacion Izquierda Radius
+ul .pages {
+    
+        border-radius: 20px 0px 0px  20px;
+        background-color: $lightGray;
+    
+}
+// Paginacion Derecha Radius
+ul .pagesNext {
+    
+    border-radius: 0px 20px 20px  0px;
+    background-color: $lightGray;
+
+}
+
+.pagiDif {
+    background: $nickel;
+    height: 130px;
+    padding: 45px;
+}
+

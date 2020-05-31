@@ -1,0 +1,44 @@
+.heroSec h1 {
+    
+    color: $white;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+     font-style: italic;
+     font-weight: 900;
+   font-size: $xx-large;
+    
+    
+}
+
+//Mediaqueries de heroSec
+
+@media (max-width: 480px) {
+   .heroSec h1 {
+    font-size: $x-large;
+   }
+}
+
+h3 {
+
+    font-size: $large;
+    color: $nickel;
+    padding: 50px;
+    text-align: left;
+   
+   
+}
+
+.parrafo p{ 
+    text-align: left;
+    margin-top: 25px;
+    font-size: $medium;
+    letter-spacing: 0.5px;
+}
+
+//media queries de parrafo de txt prinicpal "
+
+@media (max-width: 380px) {
+    .fechaText {
+        font-size: $medium;
+    }
+}

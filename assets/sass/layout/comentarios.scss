@@ -1,0 +1,58 @@
+
+// Section Comments, valores asignados a etiquetas 
+.comment {
+    
+  font-family:$playfair;
+  font-style: italic;
+  color: $earie;
+  
+}
+//modificacion de color de txt de coments
+.span {
+    color: $ruddypink;
+    font-weight: $light;
+    font-family: $robotoligh;
+    font-size: $medium;
+   
+
+}
+// text alineado de comentarios
+.texting {
+   font-size: $small;
+   text-align: center;
+   margin-top: 75px;
+   font-family: $robotoligh;
+   font-weight: $light;
+}
+ 
+// Imagen dimensiones y modificacion radius
+.imgCirc { 
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+
+/* media queries */ 
+
+@media(min-width:320px) {
+    .comments__img {
+       
+        width: 70px;
+        height: 200px;
+        border-radius: 150px;
+        
+        
+        
+    }
+    .comment {
+        text-align: center;
+    }
+   
+
+}
+
+@media (max-width: 480px) {
+    .texting {
+        display: none;
+    }
+}
