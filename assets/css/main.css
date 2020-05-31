@@ -58,13 +58,10 @@ h3 {
   text-shadow: 0.125em 0.25em 0.125em black;
 }
 
-.icono {
+.logoSec {
+  margin-top: 180px;
   color: #fff;
   text-align: center;
-}
-
-i {
-  margin-top: 250px;
 }
 
 .comment {
@@ -94,11 +91,11 @@ i {
 }
 
 /* media queries */
-@media (min-width: 320px) {
+@media (max-width: 490px) {
   .comments__img {
-    width: 70px;
+    width: 200px;
     height: 200px;
-    border-radius: 150px;
+    border-radius: 100px;
   }
 
   .comment {

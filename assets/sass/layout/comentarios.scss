@@ -34,12 +34,11 @@
 
 /* media queries */ 
 
-@media(min-width:320px) {
+@media(max-width:490px) {
     .comments__img {
-       
-        width: 70px;
-        height: 200px;
-        border-radius: 150px;
+        width: 200px;
+        height: 200px; 
+        border-radius: 100px;
         
         
         
